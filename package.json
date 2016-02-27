@@ -1,0 +1,30 @@
+{
+  "name": "freecodecamp-shortener-url",
+  "version": "1.0.0",
+  "description": "Web service to shorten urls.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lubien/freecodecamp-shortener-url.git"
+  },
+  "keywords": [
+    "FreeCodeCamp",
+    "Challenge"
+  ],
+  "author": "lubien <lubien1996@gmail.com> (http://lubien.info)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lubien/freecodecamp-shortener-url/issues"
+  },
+  "homepage": "https://github.com/lubien/freecodecamp-shortener-url#readme",
+  "dependencies": {
+    "dotenv": "^2.0.0",
+    "express": "^4.13.4",
+    "mongoose": "^4.4.5",
+    "mongoose-auto-increment": "^5.0.1",
+    "valid-url": "^1.0.9"
+  }
+}

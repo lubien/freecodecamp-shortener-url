@@ -1,0 +1,32 @@
+
+<!doctype html>
+<html>
+
+    <head>
+      <title>URL Shortener</title>
+    </head>
+
+    <body>
+        <h1>URL Shortener</h1>
+
+        <h3>Example creation usage:</h3>
+
+        <blockquote>
+            https://freecodecamp-lubien-shurl.herokuapp.com/new/https://google.com
+        </blockquote>
+
+        To accept invalid URLs, use:
+        <blockquote>
+            https://freecodecamp-lubien-shurl.herokuapp.com/invalid/invalid-url
+        </blockquote>
+
+        <h3>Creation output:</h3>
+        <blockquote>
+          {
+            "original_url": "http://google.com/",
+            "short_url": "https://freecodecamp-lubien-shurl.herokuapp.com/{integer number}"
+          }
+        </blockquote>
+    </body>
+
+</html>
