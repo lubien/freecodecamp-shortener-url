@@ -11,7 +11,7 @@ var autoIncrement = require('mongoose-auto-increment');
 =            Server            =
 ==============================*/
 
-var port = process.env.PORTA || 8080;
+var port = process.env.PORT || 8080;
 app.listen(port, () => {
   console.log('Started service at port', port);
 });
