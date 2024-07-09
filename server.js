@@ -8,7 +8,7 @@ var validUrl = require('valid-url');
 var autoIncrement = require('mongoose-auto-increment');
 
 /*==============================
-=            Server            =
+=            Server :)            =
 ==============================*/
 
 var port = process.env.PORT || 8080;
